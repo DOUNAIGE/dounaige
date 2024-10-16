@@ -1,16 +1,33 @@
-## Hi there 👋
+# Website
 
-<!--
-**DOUNAIGE/dounaige** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-Here are some ideas to get you started:
+## Deploy
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[![Deploy with EdgeOne Pages](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?from=github&template=docusaurus-template)
+
+More Templates: [EdgeOne Pages](https://edgeone.ai/pages/templates)
+
+Live Demo: https://docusaurus-template.edgeone.app
+
+### Installation
+
+```
+$ yarn
+```
+
+### Local Development
+
+```
+$ yarn start
+```
+
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+### Build
+
+```
+$ yarn build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
